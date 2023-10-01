@@ -1,0 +1,233 @@
+*{
+    animation: ease-in;
+}
+
+html {
+    background-color: #0A2342;
+    padding: 10px 30px 0px 30px;
+}
+
+header {
+    margin-top: 10px;
+    background-color: #0A2342;
+    color: #F2F2F2;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+header h1 {
+    font-size: 50px;
+}
+
+#about,
+#projects{
+    background-color: #7F7F7F;
+    padding-bottom: 10px;
+}
+
+#skills,
+#resume,#contact {
+    background-color: #A5A5A5;
+    color: #0A2342;
+    padding-bottom: 10px;
+}
+
+#skills {
+    padding: 20px 100px 20px 100px;
+}
+
+#about span {
+    font-size: larger;
+    font-style: italic;
+    font-weight: bold;
+    color: #0A2342;
+}
+
+#about p {
+    text-align: justify;
+    font-size: 20px;
+    padding: 100px 500px 100px 250px;
+}
+
+#about img {
+    padding: 10px 100px 10px 100px;
+}
+
+.skillback {
+    margin: 10px 150px 10px 150px;
+    padding: 10px 30px 10px 30px;
+    background-color: #CCCCCC;
+    border-radius: 15px;
+}
+
+.details {
+    width: 100%;
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.bar {
+    position: relative;
+    border: 2px solid #0A2342;
+    border-radius: 20px;
+}
+
+.bar div {
+    position: relative;
+    width: 0;
+    height: 9px;
+    border-radius: 10px;
+    background-color: #0A2342;
+}
+
+.skillset:not(:last-child) {
+    margin-bottom: 20px;
+}
+
+#html-bar {
+    animation: html-fill 2s forwards;
+}
+
+@keyframes html-fill {
+    100% {
+        width: 90%;
+    }
+}
+
+#css-bar {
+    animation: css-fill 2s forwards;
+}
+
+@keyframes css-fill {
+    100% {
+        width: 75%;
+    }
+}
+
+#js-bar {
+    animation: js-fill 2s forwards;
+}
+
+@keyframes js-fill {
+    100% {
+        width: 72%;
+    }
+}
+
+#jQuery-bar {
+    animation: jQuery-fill 2s forwards;
+}
+
+@keyframes jQuery-fill {
+    100% {
+        width: 58%;
+    }
+}
+
+#php-bar {
+    animation: php-fill 2s forwards;
+}
+
+@keyframes php-fill {
+    100% {
+        width: 70%;
+    }
+}
+
+#wp-bar {
+    animation: wp-fill 2s forwards;
+}
+
+@keyframes wp-fill {
+    100% {
+        width: 83%;
+    }
+}
+
+#c-bar {
+    animation: c-fill 2s forwards;
+}
+
+@keyframes c-fill {
+    100% {
+        width: 85%;
+    }
+}
+
+#cp-bar {
+    animation: cp-fill 2s forwards;
+}
+
+@keyframes cp-fill {
+    100% {
+        width: 90%;
+    }
+}
+
+#projects {
+    padding: 20px 100px 20px 100px;
+    color: #0A2342;
+}
+
+#projects .card {
+    margin: 10px;
+    background-color: #CCCCCC;
+    color: #0A2342;
+    padding: 5px;
+}
+
+#resume {
+    margin-right: -12.5px;
+    padding: 50px 100px 60px 100px;
+    text-align: center;
+}
+
+.btnR {
+    border: 1px solid #0A2342;
+    background-color: #A5A5A5;
+    color: #0A2342;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.btnR:hover {
+    border: 1px solid #A5A5A5;
+    background-color: #0A2342;
+    color: #A5A5A5;
+}
+
+#contact {
+    margin-left: -12.5px;
+    padding: 20px 100px 20px 100px;
+    color: #0A2342;
+}
+
+#contact address {
+    font-size: 22px;
+}
+
+#contact a {
+    text-decoration: none;
+    color: #0A2342;
+}
+
+address span {
+    font-weight: bold;
+}
+
+footer {
+    background-color: #7F7F7F
+}
+
+.socials {
+    text-align: center;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+footer h3 {
+    background-color: #0A2342;
+    text-align: center;
+    color: #F2F2F2;
+}
